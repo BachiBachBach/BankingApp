@@ -1,0 +1,74 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+a
+{
+    text-decoration: none;
+    color: #dbdbdb;
+}
+
+body, html
+{
+    height: 100%;
+    width:100%;
+}
+
+body
+{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #222222;
+}
+
+header
+{
+    text-align: center;
+    color: red;
+}
+
+
+.container
+{
+    display: block;
+    
+}
+
+.container section
+{
+    margin: 25px 0;
+    padding: 25px;
+    color: #dbdbdb;
+    border: 1px solid white;
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+
+@media (max-width: 676px)
+{
+    .container section
+    {
+        font-size: 12px;
+    }
+}
+
+.new-account-btn
+{
+    padding: 4px 15px;
+    border: none;
+    background-color: slategray;
+    color: #dbdbdb;
+    border-radius: 4px;
+    margin-top: 4px;
+    
+    
+}
+
+.new-account-btn:hover
+{
+    cursor: pointer;
+}
